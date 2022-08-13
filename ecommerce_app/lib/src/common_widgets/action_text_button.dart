@@ -3,7 +3,8 @@ import 'package:ecommerce_app/src/constants/app_sizes.dart';
 
 /// Text button to be used as an [AppBar] action
 class ActionTextButton extends StatelessWidget {
-  const ActionTextButton({super.key, required this.text, this.onPressed});
+  const ActionTextButton({Key? key, required this.text, this.onPressed})
+      : super(key: key);
   final String text;
   final VoidCallback? onPressed;
   @override
