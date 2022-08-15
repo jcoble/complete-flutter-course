@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "localhost native 14",
+            "database": "track_my_health",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ]
+}
